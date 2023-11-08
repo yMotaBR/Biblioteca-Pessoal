@@ -33,6 +33,7 @@ dados.
 ```
 git clone https://github.com/profmayck/Biblioteca-Pessoal.git
 ```
+**OU** baixe o ZIP da aplicação, caso não saibam ainda fazer o clone de um repositório.
 
 2. **Navegue até a pasta do projeto**:
 ```
@@ -46,8 +47,9 @@ npm install
 ```
 
 4. **Configuração do banco de dados**:
-- Crie um banco de dados MySQL para a aplicação.
-- Atualize o arquivo `/config/db.js` com as credenciais do seu banco de dados.
+- Conecte ao banco de dados com o usuário root.
+- abra o arquivo `bd/ddl.sql` e execute o script contido no arquivo. Ele criará o banco e o usuário necessário para a aplicação. Caso deseje criar uma estrutura própria de banco de dados, não esqueça de alterar o arquivo `src/config/database.js`.
+  
 
 5. **Inicie o servidor**:
 ```
