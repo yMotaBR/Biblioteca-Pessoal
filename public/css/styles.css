@@ -80,6 +80,8 @@ main {
 
 #bookPopup input[type="text"],
 #bookPopup input[type="date"],
+#bookPopup select[id="autor"],
+#bookPopup select[id="editora"],
 #bookPopup button {
     width: 100%;
     margin-bottom: 1rem;
